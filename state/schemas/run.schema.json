@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ai-startup-os/state/run.schema.json",
+  "title": "Run State",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "kind",
+    "schemaVersion",
+    "id",
+    "workflowId",
+    "workflowInstanceId",
+    "taskId",
+    "stepId",
+    "agentId",
+    "skillId",
+    "artifactName",
+    "attempt",
+    "triggerSource",
+    "status",
+    "createdAt",
+    "updatedAt",
+    "startedAt",
+    "completedAt",
+    "artifactFile",
+    "error"
+  ],
+  "properties": {
+    "kind": {
+      "const": "run"
+    },
+    "schemaVersion": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "workflowId": {
+      "type": "string"
+    },
+    "workflowInstanceId": {
+      "type": "string"
+    },
+    "taskId": {
+      "type": "string"
+    },
+    "stepId": {
+      "type": "string"
+    },
+    "agentId": {
+      "type": "string"
+    },
+    "skillId": {
+      "type": "string"
+    },
+    "artifactName": {
+      "type": "string"
+    },
+    "attempt": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "triggerSource": {
+      "enum": [
+        "goal_created",
+        "task_assigned",
+        "heartbeat",
+        "manual",
+        "workflow_step"
+      ]
+    },
+    "status": {
+      "enum": [
+        "queued",
+        "running",
+        "succeeded",
+        "failed",
+        "cancelled"
+      ]
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string"
+    },
+    "startedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "completedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "artifactFile": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "error": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "message"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        },
+        "stack": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

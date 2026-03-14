@@ -1,0 +1,54 @@
+[
+  {
+    "id": "fix-bug-2026-03-14T07-48-23-831Z-memory-1",
+    "scope": "project",
+    "namespace": "fix-bug",
+    "summary": "QA Agent produced root-cause-summary using bug-analysis",
+    "tags": [
+      "fix-bug",
+      "fix-bug-step-1",
+      "bug-analysis",
+      "qa-agent"
+    ],
+    "artifactFile": "tasks\\results\\fix-bug-2026-03-14T07-48-23-831Z\\01-fix-bug-step-1.md"
+  },
+  {
+    "id": "fix-bug-2026-03-14T07-48-23-831Z-memory-2",
+    "scope": "project",
+    "namespace": "fix-bug",
+    "summary": "Architect Agent produced architecture-blueprint using system-architecture",
+    "tags": [
+      "fix-bug",
+      "fix-bug-step-2",
+      "system-architecture",
+      "architect-agent"
+    ],
+    "artifactFile": "tasks\\results\\fix-bug-2026-03-14T07-48-23-831Z\\02-fix-bug-step-2.md"
+  },
+  {
+    "id": "fix-bug-2026-03-14T07-48-23-831Z-memory-3",
+    "scope": "project",
+    "namespace": "fix-bug",
+    "summary": "Engineer Agent produced implementation-draft using code-generation",
+    "tags": [
+      "fix-bug",
+      "fix-bug-step-3",
+      "code-generation",
+      "engineer-agent"
+    ],
+    "artifactFile": "tasks\\results\\fix-bug-2026-03-14T07-48-23-831Z\\03-fix-bug-step-3.md"
+  },
+  {
+    "id": "fix-bug-2026-03-14T07-48-23-831Z-memory-4",
+    "scope": "project",
+    "namespace": "fix-bug",
+    "summary": "QA Agent produced integration-verification-report using integration-test",
+    "tags": [
+      "fix-bug",
+      "fix-bug-step-4",
+      "integration-test",
+      "qa-agent"
+    ],
+    "artifactFile": "tasks\\results\\fix-bug-2026-03-14T07-48-23-831Z\\04-fix-bug-step-4.md"
+  }
+]

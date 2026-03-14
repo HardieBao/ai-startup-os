@@ -1,0 +1,20 @@
+{
+  "kind": "memory-record",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-2026-03-14T10-13-41-335Z-memory-1",
+  "workflowId": "build-product",
+  "workflowInstanceId": "build-product-2026-03-14T10-13-41-335Z",
+  "scope": "project",
+  "namespace": "build-product",
+  "summary": "CEO Agent produced opportunity-summary using opportunity-analysis",
+  "tags": [
+    "build-product",
+    "idea-analysis",
+    "opportunity-analysis",
+    "ceo-agent"
+  ],
+  "taskId": "build-product-task-1",
+  "runId": "build-product-task-1-run-1",
+  "artifactFile": "tasks/results/build-product-2026-03-14T10-13-41-335Z/01-idea-analysis.md",
+  "createdAt": "2026-03-14T10:13:41.360Z"
+}

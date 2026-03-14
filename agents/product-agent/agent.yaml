@@ -1,0 +1,8 @@
+id: product-agent
+role: product-manager
+title: Product Agent
+goal: Convert ideas into product requirements and roadmap decisions
+skills:
+  - prd-generation
+  - feature-prioritization
+  - user-journey

@@ -1,0 +1,12 @@
+id: fix-bug
+name: Fix Bug
+goal: Diagnose and resolve a product defect
+steps:
+  - agent: qa-agent
+    skill: bug-analysis
+  - agent: architect-agent
+    skill: system-architecture
+  - agent: engineer-agent
+    skill: code-generation
+  - agent: qa-agent
+    skill: integration-test

@@ -1,0 +1,50 @@
+rules:
+  - id: company-must-own-agents
+    kind: validation
+    type: company
+    description: Company must declare the agents it is allowed to activate.
+  - id: agent-must-have-skill
+    kind: validation
+    type: agent-skill
+    description: A workflow step can only use a skill explicitly declared on the assigned agent.
+  - id: workflow-step-agent-must-be-company-agent
+    kind: validation
+    type: workflow-agent
+    description: A workflow step can only run with agents owned by the current company.
+  - id: workflow-step-skill-must-be-allowed
+    kind: validation
+    type: workflow-skill
+    description: A workflow step can only run skills allowed by the company through its agents.
+  - id: architecture-step-requires-approval
+    kind: policy
+    type: execution-policy
+    action: require_gate
+    when_step_id: architecture
+    gate_type: approve_architecture
+    approver_role: ceo
+    auto_approve: true
+    description: Architecture output must be approved before implementation continues.
+  - id: release-step-requires-approval
+    kind: policy
+    type: execution-policy
+    action: require_gate
+    when_step_id: testing
+    gate_type: approve_release
+    approver_role: human_board
+    auto_approve: true
+    description: Release verification must be approved before the workflow is considered shipped.
+  - id: development-step-retries-on-failure
+    kind: policy
+    type: execution-policy
+    action: retry
+    when_step_id: development
+    max_attempts: 2
+    description: Development can retry once before the workflow is blocked.
+  - id: testing-step-handoff-to-release-manager
+    kind: policy
+    type: execution-policy
+    action: handoff
+    when_step_id: testing
+    handoff_mode: before_step
+    handoff_agent_id: release-manager-agent
+    description: Release verification is reassigned to the release manager at runtime.

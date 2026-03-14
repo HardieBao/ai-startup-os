@@ -1,0 +1,22 @@
+{
+  "kind": "decision-gate",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-task-3-approve_architecture",
+  "workflowId": "build-product",
+  "workflowInstanceId": "build-product-2026-03-14T09-54-37-061Z",
+  "type": "approve_architecture",
+  "targetType": "task",
+  "targetId": "build-product-task-3",
+  "requestedByAgentId": "architect-agent",
+  "approverRole": "ceo",
+  "status": "approved",
+  "autoApprove": true,
+  "createdAt": "2026-03-14T09:54:37.105Z",
+  "updatedAt": "2026-03-14T09:54:37.106Z",
+  "decidedAt": "2026-03-14T09:54:37.106Z",
+  "payload": {
+    "stepId": "architecture",
+    "skillId": "system-architecture",
+    "artifactName": "architecture-blueprint"
+  }
+}

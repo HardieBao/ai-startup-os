@@ -1,0 +1,25 @@
+{
+  "kind": "task",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-task-1",
+  "workflowId": "build-product",
+  "workflowInstanceId": "build-product-2026-03-14T09-46-18-520Z",
+  "sequence": 1,
+  "stepId": "idea-analysis",
+  "agentId": "ceo-agent",
+  "skillId": "opportunity-analysis",
+  "artifactName": "opportunity-summary",
+  "status": "done",
+  "dependsOnTaskIds": [],
+  "runIds": [
+    "build-product-task-1-run-1"
+  ],
+  "checkoutRunId": "build-product-task-1-run-1",
+  "executionRunId": "build-product-task-1-run-1",
+  "createdAt": "2026-03-14T09:46:18.520Z",
+  "updatedAt": "2026-03-14T09:46:18.548Z",
+  "startedAt": "2026-03-14T09:46:18.535Z",
+  "completedAt": "2026-03-14T09:46:18.548Z",
+  "artifactFile": "tasks/results/build-product-2026-03-14T09-46-18-520Z/01-idea-analysis.md",
+  "error": null
+}

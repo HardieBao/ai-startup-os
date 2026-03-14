@@ -1,0 +1,67 @@
+[
+  {
+    "id": "build-product-2026-03-14T08-01-37-479Z-memory-1",
+    "scope": "project",
+    "namespace": "build-product",
+    "summary": "CEO Agent produced opportunity-summary using opportunity-analysis",
+    "tags": [
+      "build-product",
+      "idea-analysis",
+      "opportunity-analysis",
+      "ceo-agent"
+    ],
+    "artifactFile": "tasks\\results\\build-product-2026-03-14T08-01-37-479Z\\01-idea-analysis.md"
+  },
+  {
+    "id": "build-product-2026-03-14T08-01-37-479Z-memory-2",
+    "scope": "project",
+    "namespace": "build-product",
+    "summary": "Product Agent produced prd using prd-generation",
+    "tags": [
+      "build-product",
+      "product-design",
+      "prd-generation",
+      "product-agent"
+    ],
+    "artifactFile": "tasks\\results\\build-product-2026-03-14T08-01-37-479Z\\02-product-design.md"
+  },
+  {
+    "id": "build-product-2026-03-14T08-01-37-479Z-memory-3",
+    "scope": "project",
+    "namespace": "build-product",
+    "summary": "Architect Agent produced architecture-blueprint using system-architecture",
+    "tags": [
+      "build-product",
+      "architecture",
+      "system-architecture",
+      "architect-agent"
+    ],
+    "artifactFile": "tasks\\results\\build-product-2026-03-14T08-01-37-479Z\\03-architecture.md"
+  },
+  {
+    "id": "build-product-2026-03-14T08-01-37-479Z-memory-4",
+    "scope": "project",
+    "namespace": "build-product",
+    "summary": "Engineer Agent produced implementation using code-generation",
+    "tags": [
+      "build-product",
+      "development",
+      "code-generation",
+      "engineer-agent"
+    ],
+    "artifactFile": "tasks\\results\\build-product-2026-03-14T08-01-37-479Z\\04-development.md"
+  },
+  {
+    "id": "build-product-2026-03-14T08-01-37-479Z-memory-5",
+    "scope": "project",
+    "namespace": "build-product",
+    "summary": "QA Agent produced verification-report using integration-test",
+    "tags": [
+      "build-product",
+      "testing",
+      "integration-test",
+      "qa-agent"
+    ],
+    "artifactFile": "tasks\\results\\build-product-2026-03-14T08-01-37-479Z\\05-testing.md"
+  }
+]

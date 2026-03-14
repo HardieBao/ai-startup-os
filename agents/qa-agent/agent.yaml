@@ -1,0 +1,8 @@
+id: qa-agent
+role: qa
+title: QA Agent
+goal: Validate delivery quality and protect release confidence
+skills:
+  - unit-test
+  - integration-test
+  - bug-analysis

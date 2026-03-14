@@ -1,0 +1,27 @@
+{
+  "kind": "task",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-task-3",
+  "workflowId": "build-product",
+  "workflowInstanceId": "build-product-2026-03-14T09-59-02-250Z",
+  "sequence": 3,
+  "stepId": "architecture",
+  "agentId": "architect-agent",
+  "skillId": "system-architecture",
+  "artifactName": "architecture-blueprint",
+  "status": "done",
+  "dependsOnTaskIds": [
+    "build-product-task-2"
+  ],
+  "runIds": [
+    "build-product-task-3-run-1"
+  ],
+  "checkoutRunId": "build-product-task-3-run-1",
+  "executionRunId": "build-product-task-3-run-1",
+  "createdAt": "2026-03-14T09:59:02.250Z",
+  "updatedAt": "2026-03-14T09:59:02.301Z",
+  "startedAt": "2026-03-14T09:59:02.298Z",
+  "completedAt": "2026-03-14T09:59:02.301Z",
+  "artifactFile": "tasks/results/build-product-2026-03-14T09-59-02-250Z/03-architecture.md",
+  "error": null
+}

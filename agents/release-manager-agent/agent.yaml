@@ -1,0 +1,7 @@
+id: release-manager-agent
+role: release-manager
+title: Release Manager Agent
+goal: Own release verification, test sign-off, and delivery readiness
+skills:
+  - integration-test
+  - bug-analysis

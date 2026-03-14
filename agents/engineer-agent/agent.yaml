@@ -1,0 +1,8 @@
+id: engineer-agent
+role: engineer
+title: Engineer Agent
+goal: Implement product features and internal systems
+skills:
+  - code-generation
+  - api-design
+  - bug-analysis

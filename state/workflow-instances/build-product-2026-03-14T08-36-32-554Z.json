@@ -1,0 +1,54 @@
+{
+  "kind": "workflow-instance",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-2026-03-14T08-36-32-554Z",
+  "workflowId": "build-product",
+  "workflowName": "Build Product",
+  "goal": {
+    "summary": "Turn a new product idea into a tested implementation"
+  },
+  "status": "completed",
+  "createdAt": "2026-03-14T08:36:32.554Z",
+  "updatedAt": "2026-03-14T08:36:32.607Z",
+  "startedAt": "2026-03-14T08:36:32.554Z",
+  "completedAt": "2026-03-14T08:36:32.606Z",
+  "currentStepId": null,
+  "taskIds": [
+    "build-product-task-1",
+    "build-product-task-2",
+    "build-product-task-3",
+    "build-product-task-4",
+    "build-product-task-5"
+  ],
+  "runIds": [
+    "build-product-task-1-run-1",
+    "build-product-task-2-run-1",
+    "build-product-task-3-run-1",
+    "build-product-task-4-run-1",
+    "build-product-task-5-run-1"
+  ],
+  "storage": {
+    "resultDir": "tasks/results/build-product-2026-03-14T08-36-32-554Z",
+    "logFile": "tasks/logs/build-product-2026-03-14T08-36-32-554Z.log",
+    "queueFile": "tasks/queue/build-product-2026-03-14T08-36-32-554Z.json",
+    "aggregateMemoryFile": "memory/projects/build-product-2026-03-14T08-36-32-554Z.json",
+    "taskStateDir": "state/tasks/build-product-2026-03-14T08-36-32-554Z",
+    "runStateDir": "state/runs/build-product-2026-03-14T08-36-32-554Z",
+    "memoryRecordDir": "state/memory-records/build-product-2026-03-14T08-36-32-554Z",
+    "eventsFile": "state/events/build-product-2026-03-14T08-36-32-554Z.jsonl"
+  },
+  "stats": {
+    "totalTasks": 5,
+    "pendingTasks": 0,
+    "readyTasks": 0,
+    "inProgressTasks": 0,
+    "doneTasks": 5,
+    "blockedTasks": 0,
+    "totalRuns": 5,
+    "queuedRuns": 0,
+    "runningRuns": 0,
+    "succeededRuns": 5,
+    "failedRuns": 0
+  },
+  "error": null
+}

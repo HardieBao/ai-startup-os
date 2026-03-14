@@ -1,0 +1,102 @@
+[
+  {
+    "kind": "memory-record",
+    "schemaVersion": "1.0.0",
+    "id": "build-product-2026-03-14T08-35-27-128Z-memory-1",
+    "workflowId": "build-product",
+    "workflowInstanceId": "build-product-2026-03-14T08-35-27-128Z",
+    "scope": "project",
+    "namespace": "build-product",
+    "summary": "CEO Agent produced opportunity-summary using opportunity-analysis",
+    "tags": [
+      "build-product",
+      "idea-analysis",
+      "opportunity-analysis",
+      "ceo-agent"
+    ],
+    "taskId": "build-product-task-1",
+    "runId": "build-product-task-1-run-1",
+    "artifactFile": "tasks/results/build-product-2026-03-14T08-35-27-128Z/01-idea-analysis.md",
+    "createdAt": "2026-03-14T08:35:27.150Z"
+  },
+  {
+    "kind": "memory-record",
+    "schemaVersion": "1.0.0",
+    "id": "build-product-2026-03-14T08-35-27-128Z-memory-2",
+    "workflowId": "build-product",
+    "workflowInstanceId": "build-product-2026-03-14T08-35-27-128Z",
+    "scope": "project",
+    "namespace": "build-product",
+    "summary": "Product Agent produced prd using prd-generation",
+    "tags": [
+      "build-product",
+      "product-design",
+      "prd-generation",
+      "product-agent"
+    ],
+    "taskId": "build-product-task-2",
+    "runId": "build-product-task-2-run-1",
+    "artifactFile": "tasks/results/build-product-2026-03-14T08-35-27-128Z/02-product-design.md",
+    "createdAt": "2026-03-14T08:35:27.157Z"
+  },
+  {
+    "kind": "memory-record",
+    "schemaVersion": "1.0.0",
+    "id": "build-product-2026-03-14T08-35-27-128Z-memory-3",
+    "workflowId": "build-product",
+    "workflowInstanceId": "build-product-2026-03-14T08-35-27-128Z",
+    "scope": "project",
+    "namespace": "build-product",
+    "summary": "Architect Agent produced architecture-blueprint using system-architecture",
+    "tags": [
+      "build-product",
+      "architecture",
+      "system-architecture",
+      "architect-agent"
+    ],
+    "taskId": "build-product-task-3",
+    "runId": "build-product-task-3-run-1",
+    "artifactFile": "tasks/results/build-product-2026-03-14T08-35-27-128Z/03-architecture.md",
+    "createdAt": "2026-03-14T08:35:27.163Z"
+  },
+  {
+    "kind": "memory-record",
+    "schemaVersion": "1.0.0",
+    "id": "build-product-2026-03-14T08-35-27-128Z-memory-4",
+    "workflowId": "build-product",
+    "workflowInstanceId": "build-product-2026-03-14T08-35-27-128Z",
+    "scope": "project",
+    "namespace": "build-product",
+    "summary": "Engineer Agent produced implementation using code-generation",
+    "tags": [
+      "build-product",
+      "development",
+      "code-generation",
+      "engineer-agent"
+    ],
+    "taskId": "build-product-task-4",
+    "runId": "build-product-task-4-run-1",
+    "artifactFile": "tasks/results/build-product-2026-03-14T08-35-27-128Z/04-development.md",
+    "createdAt": "2026-03-14T08:35:27.169Z"
+  },
+  {
+    "kind": "memory-record",
+    "schemaVersion": "1.0.0",
+    "id": "build-product-2026-03-14T08-35-27-128Z-memory-5",
+    "workflowId": "build-product",
+    "workflowInstanceId": "build-product-2026-03-14T08-35-27-128Z",
+    "scope": "project",
+    "namespace": "build-product",
+    "summary": "QA Agent produced verification-report using integration-test",
+    "tags": [
+      "build-product",
+      "testing",
+      "integration-test",
+      "qa-agent"
+    ],
+    "taskId": "build-product-task-5",
+    "runId": "build-product-task-5-run-1",
+    "artifactFile": "tasks/results/build-product-2026-03-14T08-35-27-128Z/05-testing.md",
+    "createdAt": "2026-03-14T08:35:27.175Z"
+  }
+]

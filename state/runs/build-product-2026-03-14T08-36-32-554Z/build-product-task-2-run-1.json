@@ -1,0 +1,21 @@
+{
+  "kind": "run",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-task-2-run-1",
+  "workflowId": "build-product",
+  "workflowInstanceId": "build-product-2026-03-14T08-36-32-554Z",
+  "taskId": "build-product-task-2",
+  "stepId": "product-design",
+  "agentId": "product-agent",
+  "skillId": "prd-generation",
+  "artifactName": "prd",
+  "attempt": 1,
+  "triggerSource": "workflow_step",
+  "status": "succeeded",
+  "createdAt": "2026-03-14T08:36:32.581Z",
+  "updatedAt": "2026-03-14T08:36:32.584Z",
+  "startedAt": "2026-03-14T08:36:32.581Z",
+  "completedAt": "2026-03-14T08:36:32.584Z",
+  "artifactFile": "tasks/results/build-product-2026-03-14T08-36-32-554Z/02-product-design.md",
+  "error": null
+}

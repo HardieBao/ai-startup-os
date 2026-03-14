@@ -1,0 +1,9 @@
+id: build-product
+name: Build Product
+goal: Turn a new product idea into a tested implementation
+steps:
+  - idea-analysis
+  - product-design
+  - architecture
+  - development
+  - testing

@@ -1,0 +1,7 @@
+default_agents:
+  - ceo-agent
+  - product-agent
+  - architect-agent
+  - engineer-agent
+  - qa-agent
+  - growth-agent

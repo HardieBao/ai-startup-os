@@ -1,0 +1,25 @@
+{
+  "kind": "task",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-task-2",
+  "workflowId": "build-product",
+  "workflowInstanceId": "build-product-2026-03-14T08-35-02-930Z",
+  "sequence": 2,
+  "stepId": "product-design",
+  "agentId": "product-agent",
+  "skillId": "prd-generation",
+  "artifactName": "prd",
+  "status": "pending",
+  "dependsOnTaskIds": [
+    "build-product-task-1"
+  ],
+  "runIds": [],
+  "checkoutRunId": null,
+  "executionRunId": null,
+  "createdAt": "2026-03-14T08:35:02.930Z",
+  "updatedAt": "2026-03-14T08:35:02.930Z",
+  "startedAt": null,
+  "completedAt": null,
+  "artifactFile": null,
+  "error": null
+}

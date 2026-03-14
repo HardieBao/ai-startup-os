@@ -1,0 +1,46 @@
+{
+  "workflowId": "build-product",
+  "workflowInstanceId": "build-product-2026-03-14T08-01-37-479Z",
+  "tasks": [
+    {
+      "id": "build-product-task-1",
+      "stepId": "idea-analysis",
+      "agentId": "ceo-agent",
+      "skillId": "opportunity-analysis",
+      "artifactName": "opportunity-summary",
+      "status": "ready"
+    },
+    {
+      "id": "build-product-task-2",
+      "stepId": "product-design",
+      "agentId": "product-agent",
+      "skillId": "prd-generation",
+      "artifactName": "prd",
+      "status": "pending"
+    },
+    {
+      "id": "build-product-task-3",
+      "stepId": "architecture",
+      "agentId": "architect-agent",
+      "skillId": "system-architecture",
+      "artifactName": "architecture-blueprint",
+      "status": "pending"
+    },
+    {
+      "id": "build-product-task-4",
+      "stepId": "development",
+      "agentId": "engineer-agent",
+      "skillId": "code-generation",
+      "artifactName": "implementation",
+      "status": "pending"
+    },
+    {
+      "id": "build-product-task-5",
+      "stepId": "testing",
+      "agentId": "qa-agent",
+      "skillId": "integration-test",
+      "artifactName": "verification-report",
+      "status": "pending"
+    }
+  ]
+}

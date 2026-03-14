@@ -1,0 +1,62 @@
+{
+  "kind": "workflow-instance",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-2026-03-14T09-54-37-061Z",
+  "workflowId": "build-product",
+  "workflowName": "Build Product",
+  "goal": {
+    "summary": "AI 私域自动化系统",
+    "companyId": "ai-startup-company",
+    "companyName": "AI Startup Company",
+    "ruleIds": [
+      "company-must-own-agents",
+      "agent-must-have-skill",
+      "workflow-step-agent-must-be-company-agent",
+      "workflow-step-skill-must-be-allowed"
+    ]
+  },
+  "status": "completed",
+  "createdAt": "2026-03-14T09:54:37.061Z",
+  "updatedAt": "2026-03-14T09:54:37.133Z",
+  "startedAt": "2026-03-14T09:54:37.061Z",
+  "completedAt": "2026-03-14T09:54:37.131Z",
+  "currentStepId": null,
+  "taskIds": [
+    "build-product-task-1",
+    "build-product-task-2",
+    "build-product-task-3",
+    "build-product-task-4",
+    "build-product-task-5"
+  ],
+  "runIds": [
+    "build-product-task-1-run-1",
+    "build-product-task-2-run-1",
+    "build-product-task-3-run-1",
+    "build-product-task-4-run-1",
+    "build-product-task-5-run-1"
+  ],
+  "storage": {
+    "resultDir": "tasks/results/build-product-2026-03-14T09-54-37-061Z",
+    "logFile": "tasks/logs/build-product-2026-03-14T09-54-37-061Z.log",
+    "queueFile": "tasks/queue/build-product-2026-03-14T09-54-37-061Z.json",
+    "aggregateMemoryFile": "memory/projects/build-product-2026-03-14T09-54-37-061Z.json",
+    "taskStateDir": "state/tasks/build-product-2026-03-14T09-54-37-061Z",
+    "runStateDir": "state/runs/build-product-2026-03-14T09-54-37-061Z",
+    "memoryRecordDir": "state/memory-records/build-product-2026-03-14T09-54-37-061Z",
+    "eventsFile": "state/events/build-product-2026-03-14T09-54-37-061Z.jsonl"
+  },
+  "stats": {
+    "totalTasks": 5,
+    "pendingTasks": 0,
+    "readyTasks": 0,
+    "inProgressTasks": 0,
+    "doneTasks": 5,
+    "blockedTasks": 0,
+    "totalRuns": 5,
+    "queuedRuns": 0,
+    "runningRuns": 0,
+    "succeededRuns": 5,
+    "failedRuns": 0
+  },
+  "error": null
+}

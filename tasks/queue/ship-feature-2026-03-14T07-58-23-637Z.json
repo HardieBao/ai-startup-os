@@ -1,0 +1,38 @@
+{
+  "workflowId": "ship-feature",
+  "workflowInstanceId": "ship-feature-2026-03-14T07-58-23-637Z",
+  "tasks": [
+    {
+      "id": "ship-feature-task-1",
+      "stepId": "ship-feature-step-1",
+      "agentId": "product-agent",
+      "skillId": "feature-prioritization",
+      "artifactName": "prioritized-roadmap",
+      "status": "ready"
+    },
+    {
+      "id": "ship-feature-task-2",
+      "stepId": "ship-feature-step-2",
+      "agentId": "architect-agent",
+      "skillId": "api-design",
+      "artifactName": "api-contract",
+      "status": "pending"
+    },
+    {
+      "id": "ship-feature-task-3",
+      "stepId": "ship-feature-step-3",
+      "agentId": "engineer-agent",
+      "skillId": "code-generation",
+      "artifactName": "implementation-draft",
+      "status": "pending"
+    },
+    {
+      "id": "ship-feature-task-4",
+      "stepId": "ship-feature-step-4",
+      "agentId": "qa-agent",
+      "skillId": "unit-test",
+      "artifactName": "unit-test-coverage",
+      "status": "pending"
+    }
+  ]
+}

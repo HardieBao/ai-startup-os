@@ -1,0 +1,21 @@
+{
+  "kind": "run",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-task-3-run-1",
+  "workflowId": "build-product",
+  "workflowInstanceId": "build-product-2026-03-14T10-13-41-335Z",
+  "taskId": "build-product-task-3",
+  "stepId": "architecture",
+  "agentId": "architect-agent",
+  "skillId": "system-architecture",
+  "artifactName": "architecture-blueprint",
+  "attempt": 1,
+  "triggerSource": "workflow_step",
+  "status": "succeeded",
+  "createdAt": "2026-03-14T10:13:41.379Z",
+  "updatedAt": "2026-03-14T10:13:41.382Z",
+  "startedAt": "2026-03-14T10:13:41.379Z",
+  "completedAt": "2026-03-14T10:13:41.382Z",
+  "artifactFile": "tasks/results/build-product-2026-03-14T10-13-41-335Z/03-architecture.md",
+  "error": null
+}

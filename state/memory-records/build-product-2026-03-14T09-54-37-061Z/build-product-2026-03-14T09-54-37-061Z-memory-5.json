@@ -1,0 +1,20 @@
+{
+  "kind": "memory-record",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-2026-03-14T09-54-37-061Z-memory-5",
+  "workflowId": "build-product",
+  "workflowInstanceId": "build-product-2026-03-14T09-54-37-061Z",
+  "scope": "project",
+  "namespace": "build-product",
+  "summary": "QA Agent produced verification-report using integration-test",
+  "tags": [
+    "build-product",
+    "testing",
+    "integration-test",
+    "qa-agent"
+  ],
+  "taskId": "build-product-task-5",
+  "runId": "build-product-task-5-run-1",
+  "artifactFile": "tasks/results/build-product-2026-03-14T09-54-37-061Z/05-testing.md",
+  "createdAt": "2026-03-14T09:54:37.128Z"
+}

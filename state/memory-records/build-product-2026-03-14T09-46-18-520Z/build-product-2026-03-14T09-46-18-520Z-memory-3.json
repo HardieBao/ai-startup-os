@@ -1,0 +1,20 @@
+{
+  "kind": "memory-record",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-2026-03-14T09-46-18-520Z-memory-3",
+  "workflowId": "build-product",
+  "workflowInstanceId": "build-product-2026-03-14T09-46-18-520Z",
+  "scope": "project",
+  "namespace": "build-product",
+  "summary": "Architect Agent produced architecture-blueprint using system-architecture",
+  "tags": [
+    "build-product",
+    "architecture",
+    "system-architecture",
+    "architect-agent"
+  ],
+  "taskId": "build-product-task-3",
+  "runId": "build-product-task-3-run-1",
+  "artifactFile": "tasks/results/build-product-2026-03-14T09-46-18-520Z/03-architecture.md",
+  "createdAt": "2026-03-14T09:46:18.562Z"
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "memory-record",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-2026-03-14T09-59-02-250Z-memory-2",
+  "workflowId": "build-product",
+  "workflowInstanceId": "build-product-2026-03-14T09-59-02-250Z",
+  "scope": "project",
+  "namespace": "build-product",
+  "summary": "Product Agent produced prd using prd-generation",
+  "tags": [
+    "build-product",
+    "product-design",
+    "prd-generation",
+    "product-agent"
+  ],
+  "taskId": "build-product-task-2",
+  "runId": "build-product-task-2-run-1",
+  "artifactFile": "tasks/results/build-product-2026-03-14T09-59-02-250Z/02-product-design.md",
+  "createdAt": "2026-03-14T09:59:02.290Z"
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ai-startup-os/state/memory-record.schema.json",
+  "title": "Memory Record State",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "kind",
+    "schemaVersion",
+    "id",
+    "workflowId",
+    "workflowInstanceId",
+    "scope",
+    "namespace",
+    "summary",
+    "tags",
+    "taskId",
+    "runId",
+    "artifactFile",
+    "createdAt"
+  ],
+  "properties": {
+    "kind": {
+      "const": "memory-record"
+    },
+    "schemaVersion": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "workflowId": {
+      "type": "string"
+    },
+    "workflowInstanceId": {
+      "type": "string"
+    },
+    "scope": {
+      "enum": [
+        "company",
+        "project",
+        "codebase",
+        "knowledge",
+        "task"
+      ]
+    },
+    "namespace": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "taskId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "runId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "artifactFile": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "createdAt": {
+      "type": "string"
+    }
+  }
+}

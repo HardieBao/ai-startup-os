@@ -1,0 +1,29 @@
+{
+  "kind": "task",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-task-2",
+  "workflowId": "build-product",
+  "workflowInstanceId": "build-product-2026-03-14T10-13-01-032Z",
+  "sequence": 2,
+  "stepId": "product-design",
+  "agentId": "product-agent",
+  "skillId": "prd-generation",
+  "artifactName": "prd",
+  "status": "blocked",
+  "dependsOnTaskIds": [
+    "build-product-task-1"
+  ],
+  "runIds": [],
+  "checkoutRunId": null,
+  "executionRunId": null,
+  "createdAt": "2026-03-14T10:13:01.032Z",
+  "updatedAt": "2026-03-14T10:13:01.059Z",
+  "startedAt": null,
+  "completedAt": null,
+  "artifactFile": null,
+  "error": {
+    "name": "ReferenceError",
+    "message": "runId is not defined",
+    "stack": "ReferenceError: runId is not defined\n    at simulateWorkflow (file:///D:/Google_download/HardieSkill/ai-startup-os/src/runtime/workflow-runtime.mjs:976:11)\n    at async main (file:///D:/Google_download/HardieSkill/ai-startup-os/cli/ai-startup-cli/index.mjs:55:5)"
+  }
+}

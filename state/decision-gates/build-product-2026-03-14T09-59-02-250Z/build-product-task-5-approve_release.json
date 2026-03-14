@@ -1,0 +1,22 @@
+{
+  "kind": "decision-gate",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-task-5-approve_release",
+  "workflowId": "build-product",
+  "workflowInstanceId": "build-product-2026-03-14T09-59-02-250Z",
+  "type": "approve_release",
+  "targetType": "task",
+  "targetId": "build-product-task-5",
+  "requestedByAgentId": "qa-agent",
+  "approverRole": "human_board",
+  "status": "approved",
+  "autoApprove": true,
+  "createdAt": "2026-03-14T09:59:02.314Z",
+  "updatedAt": "2026-03-14T09:59:02.315Z",
+  "decidedAt": "2026-03-14T09:59:02.315Z",
+  "payload": {
+    "stepId": "testing",
+    "skillId": "integration-test",
+    "artifactName": "verification-report"
+  }
+}

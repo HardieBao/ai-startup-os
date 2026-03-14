@@ -1,0 +1,12 @@
+id: ship-feature
+name: Ship Feature
+goal: Deliver a scoped feature into an existing product
+steps:
+  - agent: product-agent
+    skill: feature-prioritization
+  - agent: architect-agent
+    skill: api-design
+  - agent: engineer-agent
+    skill: code-generation
+  - agent: qa-agent
+    skill: unit-test

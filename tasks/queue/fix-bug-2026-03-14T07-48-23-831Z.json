@@ -1,0 +1,38 @@
+{
+  "workflowId": "fix-bug",
+  "workflowInstanceId": "fix-bug-2026-03-14T07-48-23-831Z",
+  "tasks": [
+    {
+      "id": "fix-bug-task-1",
+      "stepId": "fix-bug-step-1",
+      "agentId": "qa-agent",
+      "skillId": "bug-analysis",
+      "artifactName": "root-cause-summary",
+      "status": "ready"
+    },
+    {
+      "id": "fix-bug-task-2",
+      "stepId": "fix-bug-step-2",
+      "agentId": "architect-agent",
+      "skillId": "system-architecture",
+      "artifactName": "architecture-blueprint",
+      "status": "pending"
+    },
+    {
+      "id": "fix-bug-task-3",
+      "stepId": "fix-bug-step-3",
+      "agentId": "engineer-agent",
+      "skillId": "code-generation",
+      "artifactName": "implementation-draft",
+      "status": "pending"
+    },
+    {
+      "id": "fix-bug-task-4",
+      "stepId": "fix-bug-step-4",
+      "agentId": "qa-agent",
+      "skillId": "integration-test",
+      "artifactName": "integration-verification-report",
+      "status": "pending"
+    }
+  ]
+}

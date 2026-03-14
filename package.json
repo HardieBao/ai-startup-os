@@ -1,0 +1,17 @@
+{
+  "name": "ai-startup-os",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Composable AI company operating system that combines agent orchestration with skill execution.",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "demo:new": "node cli/ai-startup-cli/index.mjs new \"AI private-domain automation system\"",
+    "demo:build-product": "node cli/ai-startup-cli/index.mjs run build-product",
+    "demo:fix-bug": "node cli/ai-startup-cli/index.mjs run fix-bug",
+    "demo:inspect-latest-build-product": "node cli/ai-startup-cli/index.mjs inspect-latest build-product"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

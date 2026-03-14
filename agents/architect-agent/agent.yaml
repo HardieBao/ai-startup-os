@@ -1,0 +1,8 @@
+id: architect-agent
+role: architect
+title: Architect Agent
+goal: Design systems, interfaces, and technical boundaries
+skills:
+  - system-architecture
+  - api-design
+  - database-design

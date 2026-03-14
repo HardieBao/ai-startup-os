@@ -1,0 +1,4 @@
+default_workflows:
+  - build-product
+  - ship-feature
+  - fix-bug

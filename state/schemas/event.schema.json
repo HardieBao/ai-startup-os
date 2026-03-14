@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ai-startup-os/state/event.schema.json",
+  "title": "Execution Event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "kind",
+    "schemaVersion",
+    "id",
+    "workflowId",
+    "workflowInstanceId",
+    "entityType",
+    "entityId",
+    "eventType",
+    "timestamp",
+    "payload"
+  ],
+  "properties": {
+    "kind": {
+      "const": "event"
+    },
+    "schemaVersion": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "workflowId": {
+      "type": "string"
+    },
+    "workflowInstanceId": {
+      "type": "string"
+    },
+    "entityType": {
+      "enum": [
+        "workflow-instance",
+        "task",
+        "run",
+        "memory-record"
+      ]
+    },
+    "entityId": {
+      "type": "string"
+    },
+    "eventType": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "run",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-task-5-run-1",
+  "workflowId": "build-product",
+  "workflowInstanceId": "build-product-2026-03-14T08-24-30-117Z",
+  "taskId": "build-product-task-5",
+  "stepId": "testing",
+  "agentId": "qa-agent",
+  "skillId": "integration-test",
+  "artifactName": "verification-report",
+  "attempt": 1,
+  "triggerSource": "workflow_step",
+  "status": "succeeded",
+  "createdAt": "2026-03-14T08:24:30.145Z",
+  "updatedAt": "2026-03-14T08:24:30.147Z",
+  "startedAt": "2026-03-14T08:24:30.145Z",
+  "completedAt": "2026-03-14T08:24:30.147Z",
+  "artifactFile": "tasks/results/build-product-2026-03-14T08-24-30-117Z/05-testing.md",
+  "error": null
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ai-startup-os/state/decision-gate.schema.json",
+  "title": "Decision Gate State",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "kind",
+    "schemaVersion",
+    "id",
+    "workflowId",
+    "workflowInstanceId",
+    "type",
+    "targetType",
+    "targetId",
+    "requestedByAgentId",
+    "approverRole",
+    "status",
+    "autoApprove",
+    "createdAt",
+    "updatedAt",
+    "decidedAt",
+    "payload"
+  ],
+  "properties": {
+    "kind": {
+      "const": "decision-gate"
+    },
+    "schemaVersion": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "workflowId": {
+      "type": "string"
+    },
+    "workflowInstanceId": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "hire_agent",
+        "approve_strategy",
+        "approve_architecture",
+        "approve_release"
+      ]
+    },
+    "targetType": {
+      "enum": [
+        "agent",
+        "workflow_instance",
+        "task",
+        "run"
+      ]
+    },
+    "targetId": {
+      "type": "string"
+    },
+    "requestedByAgentId": {
+      "type": "string"
+    },
+    "approverRole": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "pending",
+        "approved",
+        "rejected",
+        "cancelled"
+      ]
+    },
+    "autoApprove": {
+      "type": "boolean"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string"
+    },
+    "decidedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "payload": {
+      "type": "object"
+    }
+  }
+}

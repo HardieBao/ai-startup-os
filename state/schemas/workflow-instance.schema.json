@@ -1,0 +1,240 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ai-startup-os/state/workflow-instance.schema.json",
+  "title": "Workflow Instance State",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "kind",
+    "schemaVersion",
+    "id",
+    "workflowId",
+    "workflowName",
+    "goal",
+    "status",
+    "createdAt",
+    "updatedAt",
+    "startedAt",
+    "completedAt",
+    "currentStepId",
+    "taskIds",
+    "runIds",
+    "storage",
+    "stats",
+    "error"
+  ],
+  "properties": {
+    "kind": {
+      "const": "workflow-instance"
+    },
+    "schemaVersion": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "workflowId": {
+      "type": "string"
+    },
+    "workflowName": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "summary"
+      ],
+      "properties": {
+        "summary": {
+          "type": "string"
+        },
+        "companyId": {
+          "type": "string"
+        },
+        "companyName": {
+          "type": "string"
+        },
+        "ruleIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "pending",
+        "active",
+        "blocked",
+        "completed",
+        "cancelled"
+      ]
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string"
+    },
+    "startedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "completedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "currentStepId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "taskIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "runIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "storage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "resultDir",
+        "logFile",
+        "queueFile",
+        "aggregateMemoryFile",
+        "taskStateDir",
+        "runStateDir",
+        "memoryRecordDir",
+        "decisionGateDir",
+        "eventsFile"
+      ],
+      "properties": {
+        "resultDir": {
+          "type": "string"
+        },
+        "logFile": {
+          "type": "string"
+        },
+        "queueFile": {
+          "type": "string"
+        },
+        "aggregateMemoryFile": {
+          "type": "string"
+        },
+        "taskStateDir": {
+          "type": "string"
+        },
+        "runStateDir": {
+          "type": "string"
+        },
+        "memoryRecordDir": {
+          "type": "string"
+        },
+        "decisionGateDir": {
+          "type": "string"
+        },
+        "eventsFile": {
+          "type": "string"
+        }
+      }
+    },
+    "stats": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "totalTasks",
+        "pendingTasks",
+        "readyTasks",
+        "inProgressTasks",
+        "doneTasks",
+        "blockedTasks",
+        "totalRuns",
+        "queuedRuns",
+        "runningRuns",
+        "succeededRuns",
+        "failedRuns"
+      ],
+      "properties": {
+        "totalTasks": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "pendingTasks": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "readyTasks": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "inProgressTasks": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "doneTasks": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "blockedTasks": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "totalRuns": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "queuedRuns": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "runningRuns": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "succeededRuns": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "failedRuns": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "error": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "message"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        },
+        "stack": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

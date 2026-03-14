@@ -1,0 +1,67 @@
+{
+  "kind": "workflow-instance",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-2026-03-14T10-13-01-032Z",
+  "workflowId": "build-product",
+  "workflowName": "Build Product",
+  "goal": {
+    "summary": "AI 私域自动化系统",
+    "companyId": "ai-startup-company",
+    "companyName": "AI Startup Company",
+    "ruleIds": [
+      "company-must-own-agents",
+      "agent-must-have-skill",
+      "workflow-step-agent-must-be-company-agent",
+      "workflow-step-skill-must-be-allowed",
+      "architecture-step-requires-approval",
+      "release-step-requires-approval",
+      "development-step-retries-on-failure",
+      "testing-step-handoff-to-release-manager"
+    ]
+  },
+  "status": "blocked",
+  "createdAt": "2026-03-14T10:13:01.032Z",
+  "updatedAt": "2026-03-14T10:13:01.060Z",
+  "startedAt": "2026-03-14T10:13:01.032Z",
+  "completedAt": null,
+  "currentStepId": "idea-analysis",
+  "taskIds": [
+    "build-product-task-1",
+    "build-product-task-2",
+    "build-product-task-3",
+    "build-product-task-4",
+    "build-product-task-5"
+  ],
+  "runIds": [
+    "build-product-task-1-run-1"
+  ],
+  "storage": {
+    "resultDir": "tasks/results/build-product-2026-03-14T10-13-01-032Z",
+    "logFile": "tasks/logs/build-product-2026-03-14T10-13-01-032Z.log",
+    "queueFile": "tasks/queue/build-product-2026-03-14T10-13-01-032Z.json",
+    "aggregateMemoryFile": "memory/projects/build-product-2026-03-14T10-13-01-032Z.json",
+    "taskStateDir": "state/tasks/build-product-2026-03-14T10-13-01-032Z",
+    "runStateDir": "state/runs/build-product-2026-03-14T10-13-01-032Z",
+    "memoryRecordDir": "state/memory-records/build-product-2026-03-14T10-13-01-032Z",
+    "decisionGateDir": "state/decision-gates/build-product-2026-03-14T10-13-01-032Z",
+    "eventsFile": "state/events/build-product-2026-03-14T10-13-01-032Z.jsonl"
+  },
+  "stats": {
+    "totalTasks": 5,
+    "pendingTasks": 3,
+    "readyTasks": 0,
+    "inProgressTasks": 0,
+    "doneTasks": 1,
+    "blockedTasks": 1,
+    "totalRuns": 1,
+    "queuedRuns": 0,
+    "runningRuns": 0,
+    "succeededRuns": 1,
+    "failedRuns": 0
+  },
+  "error": {
+    "name": "ReferenceError",
+    "message": "runId is not defined",
+    "stack": "ReferenceError: runId is not defined\n    at simulateWorkflow (file:///D:/Google_download/HardieSkill/ai-startup-os/src/runtime/workflow-runtime.mjs:976:11)\n    at async main (file:///D:/Google_download/HardieSkill/ai-startup-os/cli/ai-startup-cli/index.mjs:55:5)"
+  }
+}

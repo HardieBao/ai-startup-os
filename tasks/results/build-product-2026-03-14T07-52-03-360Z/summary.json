@@ -1,0 +1,48 @@
+{
+  "workflowId": "build-product",
+  "workflowName": "Build Product",
+  "workflowInstanceId": "build-product-2026-03-14T07-52-03-360Z",
+  "completedTasks": 5,
+  "results": [
+    {
+      "taskId": "build-product-task-1",
+      "stepId": "idea-analysis",
+      "agentId": "ceo-agent",
+      "skillId": "opportunity-analysis",
+      "artifactName": "opportunity-summary",
+      "file": "01-idea-analysis.md"
+    },
+    {
+      "taskId": "build-product-task-2",
+      "stepId": "product-design",
+      "agentId": "product-agent",
+      "skillId": "prd-generation",
+      "artifactName": "prd",
+      "file": "02-product-design.md"
+    },
+    {
+      "taskId": "build-product-task-3",
+      "stepId": "architecture",
+      "agentId": "architect-agent",
+      "skillId": "system-architecture",
+      "artifactName": "architecture-blueprint",
+      "file": "03-architecture.md"
+    },
+    {
+      "taskId": "build-product-task-4",
+      "stepId": "development",
+      "agentId": "engineer-agent",
+      "skillId": "code-generation",
+      "artifactName": "implementation",
+      "file": "04-development.md"
+    },
+    {
+      "taskId": "build-product-task-5",
+      "stepId": "testing",
+      "agentId": "qa-agent",
+      "skillId": "integration-test",
+      "artifactName": "verification-report",
+      "file": "05-testing.md"
+    }
+  ]
+}

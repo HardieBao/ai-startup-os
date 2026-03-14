@@ -1,0 +1,54 @@
+[
+  {
+    "id": "ship-feature-2026-03-14T07-52-03-407Z-memory-1",
+    "scope": "project",
+    "namespace": "ship-feature",
+    "summary": "Product Agent produced prioritized-roadmap using feature-prioritization",
+    "tags": [
+      "ship-feature",
+      "ship-feature-step-1",
+      "feature-prioritization",
+      "product-agent"
+    ],
+    "artifactFile": "tasks\\results\\ship-feature-2026-03-14T07-52-03-407Z\\01-ship-feature-step-1.md"
+  },
+  {
+    "id": "ship-feature-2026-03-14T07-52-03-407Z-memory-2",
+    "scope": "project",
+    "namespace": "ship-feature",
+    "summary": "Architect Agent produced api-contract using api-design",
+    "tags": [
+      "ship-feature",
+      "ship-feature-step-2",
+      "api-design",
+      "architect-agent"
+    ],
+    "artifactFile": "tasks\\results\\ship-feature-2026-03-14T07-52-03-407Z\\02-ship-feature-step-2.md"
+  },
+  {
+    "id": "ship-feature-2026-03-14T07-52-03-407Z-memory-3",
+    "scope": "project",
+    "namespace": "ship-feature",
+    "summary": "Engineer Agent produced implementation-draft using code-generation",
+    "tags": [
+      "ship-feature",
+      "ship-feature-step-3",
+      "code-generation",
+      "engineer-agent"
+    ],
+    "artifactFile": "tasks\\results\\ship-feature-2026-03-14T07-52-03-407Z\\03-ship-feature-step-3.md"
+  },
+  {
+    "id": "ship-feature-2026-03-14T07-52-03-407Z-memory-4",
+    "scope": "project",
+    "namespace": "ship-feature",
+    "summary": "QA Agent produced unit-test-coverage using unit-test",
+    "tags": [
+      "ship-feature",
+      "ship-feature-step-4",
+      "unit-test",
+      "qa-agent"
+    ],
+    "artifactFile": "tasks\\results\\ship-feature-2026-03-14T07-52-03-407Z\\04-ship-feature-step-4.md"
+  }
+]

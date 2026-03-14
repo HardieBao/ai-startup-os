@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ai-startup-os/state/task.schema.json",
+  "title": "Task State",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "kind",
+    "schemaVersion",
+    "id",
+    "workflowId",
+    "workflowInstanceId",
+    "sequence",
+    "stepId",
+    "agentId",
+    "skillId",
+    "artifactName",
+    "status",
+    "dependsOnTaskIds",
+    "runIds",
+    "checkoutRunId",
+    "executionRunId",
+    "createdAt",
+    "updatedAt",
+    "startedAt",
+    "completedAt",
+    "artifactFile",
+    "error"
+  ],
+  "properties": {
+    "kind": {
+      "const": "task"
+    },
+    "schemaVersion": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "workflowId": {
+      "type": "string"
+    },
+    "workflowInstanceId": {
+      "type": "string"
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "stepId": {
+      "type": "string"
+    },
+    "agentId": {
+      "type": "string"
+    },
+    "skillId": {
+      "type": "string"
+    },
+    "artifactName": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "pending",
+        "ready",
+        "in_progress",
+        "blocked",
+        "done"
+      ]
+    },
+    "dependsOnTaskIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "runIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "checkoutRunId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "executionRunId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string"
+    },
+    "startedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "completedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "artifactFile": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "error": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "message"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        },
+        "stack": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

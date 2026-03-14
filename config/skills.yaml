@@ -1,0 +1,21 @@
+skill_groups:
+  thinking:
+    - opportunity-analysis
+    - problem-decomposition
+    - strategy-design
+  product:
+    - prd-generation
+    - feature-prioritization
+    - user-journey
+  engineering:
+    - system-architecture
+    - api-design
+    - database-design
+    - code-generation
+  testing:
+    - unit-test
+    - integration-test
+    - bug-analysis
+  growth:
+    - marketing-strategy
+    - saas-pricing

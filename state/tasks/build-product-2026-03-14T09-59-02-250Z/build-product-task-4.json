@@ -1,0 +1,27 @@
+{
+  "kind": "task",
+  "schemaVersion": "1.0.0",
+  "id": "build-product-task-4",
+  "workflowId": "build-product",
+  "workflowInstanceId": "build-product-2026-03-14T09-59-02-250Z",
+  "sequence": 4,
+  "stepId": "development",
+  "agentId": "engineer-agent",
+  "skillId": "code-generation",
+  "artifactName": "implementation",
+  "status": "done",
+  "dependsOnTaskIds": [
+    "build-product-task-3"
+  ],
+  "runIds": [
+    "build-product-task-4-run-1"
+  ],
+  "checkoutRunId": "build-product-task-4-run-1",
+  "executionRunId": "build-product-task-4-run-1",
+  "createdAt": "2026-03-14T09:59:02.250Z",
+  "updatedAt": "2026-03-14T09:59:02.309Z",
+  "startedAt": "2026-03-14T09:59:02.306Z",
+  "completedAt": "2026-03-14T09:59:02.309Z",
+  "artifactFile": "tasks/results/build-product-2026-03-14T09-59-02-250Z/04-development.md",
+  "error": null
+}
